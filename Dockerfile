@@ -24,4 +24,4 @@ COPY --from=builder /app/package.json ./package.json
 EXPOSE 8080
 
 # Start the app
-CMD ["npx", "next", "start", "-p", "8080"]
+CMD ["npm", "start"]
