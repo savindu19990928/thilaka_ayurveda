@@ -1,31 +1,26 @@
-# Step 1: Build the app
-FROM node:22.14.0 AS builder
-
+# 1. Install dependencies
+FROM node:20-alpine AS deps
 WORKDIR /app
-
-# Install dependencies
 COPY package.json package-lock.json ./
-RUN npm install
+RUN npm ci
 
-# Copy app source
+# 2. Build the app
+FROM node:20-alpine AS builder
+WORKDIR /app
 COPY . .
-
-# Build the app
+COPY --from=deps /app/node_modules ./node_modules
 RUN npm run build
 
-# Step 2: Run the app
-FROM node:22.14.0
-
+# 3. Production image
+FROM node:20-alpine AS runner
 WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./
 
-# Copy build from previous stage
-COPY --from=builder /app ./
-
-# Install production dependencies
-RUN npm install --only=production
-
-# Expose port
-EXPOSE 3000
+EXPOSE 8080
 
 # Start the app
 CMD ["npm", "start"]
