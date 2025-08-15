@@ -137,7 +137,7 @@ export default function Contact() {
                   <div>
                     <h3 className="text-xl font-bold text-green-800 mb-2">Opening Hours</h3>
                     <div className="space-y-1 text-gray-700">
-                      <p>Monday - Saturday: 8:00 AM - 6:30 PM</p>
+                      <p>Monday - Saturday: 8:00 AM - 6:00 PM</p>
                     </div>
                   </div>
                 </div>
@@ -202,8 +202,10 @@ export default function Contact() {
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <i className="ri-user-heart-line text-green-600 w-8 h-8 flex items-center justify-center"></i>
               </div>
-              <h3 className="text-xl font-bold text-green-800 mb-4">Personal Consultation</h3>
-              <p className="text-gray-700">One-on-one consultations with our experienced Ayurvedic practitioners to understand your health needs.</p>
+              <h3 className="text-xl font-bold text-green-800 mb-4">Authentic Ayurvedic Medicines</h3>
+              <p className="text-gray-700">
+                Carefully prepared herbal remedies and natural wellness products sourced from trusted Ayurvedic traditions.
+              </p>
             </div>
             <div className="bg-green-50 p-6 rounded-lg text-center">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -212,7 +214,7 @@ export default function Contact() {
               <h3 className="text-xl font-bold text-green-800 mb-4">Custom Preparations</h3>
               <p className="text-gray-700">Personalized herbal formulations prepared fresh according to your specific requirements.</p>
             </div>
-            <div className="bg-green-50 p-6 rounded-lg text-center">
+            {/* <div className="bg-green-50 p-6 rounded-lg text-center">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <i className="ri-book-open-line text-green-600 w-8 h-8 flex items-center justify-center"></i>
               </div>
@@ -225,14 +227,14 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold text-green-800 mb-4">Product Selection</h3>
               <p className="text-gray-700">Expert assistance in choosing the right products from our extensive collection of authentic medicines.</p>
-            </div>
-            <div className="bg-green-50 p-6 rounded-lg text-center">
+            </div> */}
+            {/* <div className="bg-green-50 p-6 rounded-lg text-center">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <i className="ri-calendar-check-line text-green-600 w-8 h-8 flex items-center justify-center"></i>
               </div>
               <h3 className="text-xl font-bold text-green-800 mb-4">Follow-up Care</h3>
               <p className="text-gray-700">Regular follow-up appointments to monitor your progress and adjust treatments as needed.</p>
-            </div>
+            </div> */}
             <div className="bg-green-50 p-6 rounded-lg text-center">
               <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
                 <i className="ri-shield-check-line text-green-600 w-8 h-8 flex items-center justify-center"></i>
@@ -245,7 +247,7 @@ export default function Contact() {
       </section>
 
       {/* Transportation */}
-      <section className="py-20 bg-green-50">
+      {/* <section className="py-20 bg-green-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-green-800 mb-4">How to Reach Us</h2>
@@ -275,7 +277,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-green-800 text-white">

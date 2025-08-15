@@ -58,8 +58,68 @@ export default function Products() {
       ]
     },
     {
-      name: "Mental Wellness",
-      description: "Herbs for mental clarity, memory, and emotional balance",
+      name: "Immune Support",
+      description: "Herbal blends to strengthen immunity and overall resilience",
+      images: [
+        "https://readdy.ai/api/search-image?query=Brahmi%20Churna%20brain%20tonic%20powder%20in%20ceramic%20bowl%2C%20fine%20green%20powder%20with%20wooden%20spoon%2C%20arranged%20with%20fresh%20brahmi%20leaves%20and%20white%20lotus%20petals%20on%20marble%20surface&width=200&height=200&seq=brahmi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Shankhpushpi%20Churna%20memory%20enhancer%20powder%20in%20brass%20container%2C%20light%20colored%20fine%20powder%20with%20silver%20spoon%2C%20arranged%20with%20shankhpushpi%20flowers%20on%20clean%20background&width=200&height=200&seq=shankhpushpi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Medhya%20Rasayan%20brain%20tonic%20tablets%20in%20wooden%20bowl%2C%20golden%20brown%20round%20tablets%20with%20herbs%2C%20traditional%20mental%20wellness%20medicine%20with%20meditation%20beads%20on%20silk%20cloth&width=200&height=200&seq=medhya1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Saraswatarishta%20intelligence%20tonic%20in%20elegant%20bottle%2C%20golden%20herbal%20liquid%20with%20cork%20stopper%2C%20arranged%20with%20sacred%20books%20and%20white%20flowers%20on%20wooden%20table&width=200&height=200&seq=saraswatarishta1&orientation=squarish"
+      ]
+    },
+    {
+      name: "Detox & Cleansing",
+      description: "Natural formulations for internal purification and toxin elimination",
+      images: [
+        "https://readdy.ai/api/search-image?query=Brahmi%20Churna%20brain%20tonic%20powder%20in%20ceramic%20bowl%2C%20fine%20green%20powder%20with%20wooden%20spoon%2C%20arranged%20with%20fresh%20brahmi%20leaves%20and%20white%20lotus%20petals%20on%20marble%20surface&width=200&height=200&seq=brahmi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Shankhpushpi%20Churna%20memory%20enhancer%20powder%20in%20brass%20container%2C%20light%20colored%20fine%20powder%20with%20silver%20spoon%2C%20arranged%20with%20shankhpushpi%20flowers%20on%20clean%20background&width=200&height=200&seq=shankhpushpi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Medhya%20Rasayan%20brain%20tonic%20tablets%20in%20wooden%20bowl%2C%20golden%20brown%20round%20tablets%20with%20herbs%2C%20traditional%20mental%20wellness%20medicine%20with%20meditation%20beads%20on%20silk%20cloth&width=200&height=200&seq=medhya1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Saraswatarishta%20intelligence%20tonic%20in%20elegant%20bottle%2C%20golden%20herbal%20liquid%20with%20cork%20stopper%2C%20arranged%20with%20sacred%20books%20and%20white%20flowers%20on%20wooden%20table&width=200&height=200&seq=saraswatarishta1&orientation=squarish"
+      ]
+    },
+    {
+      name: "Diabetes & Metabolic Health",
+      description: "Natural solutions for blood sugar balance and metabolism support",
+      images: [
+        "https://readdy.ai/api/search-image?query=Brahmi%20Churna%20brain%20tonic%20powder%20in%20ceramic%20bowl%2C%20fine%20green%20powder%20with%20wooden%20spoon%2C%20arranged%20with%20fresh%20brahmi%20leaves%20and%20white%20lotus%20petals%20on%20marble%20surface&width=200&height=200&seq=brahmi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Shankhpushpi%20Churna%20memory%20enhancer%20powder%20in%20brass%20container%2C%20light%20colored%20fine%20powder%20with%20silver%20spoon%2C%20arranged%20with%20shankhpushpi%20flowers%20on%20clean%20background&width=200&height=200&seq=shankhpushpi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Medhya%20Rasayan%20brain%20tonic%20tablets%20in%20wooden%20bowl%2C%20golden%20brown%20round%20tablets%20with%20herbs%2C%20traditional%20mental%20wellness%20medicine%20with%20meditation%20beads%20on%20silk%20cloth&width=200&height=200&seq=medhya1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Saraswatarishta%20intelligence%20tonic%20in%20elegant%20bottle%2C%20golden%20herbal%20liquid%20with%20cork%20stopper%2C%20arranged%20with%20sacred%20books%20and%20white%20flowers%20on%20wooden%20table&width=200&height=200&seq=saraswatarishta1&orientation=squarish"
+      ]
+    },
+    {
+      name: "Weight Management",
+      description: "Ayurvedic aids for healthy weight control and energy balance",
+      images: [
+        "https://readdy.ai/api/search-image?query=Brahmi%20Churna%20brain%20tonic%20powder%20in%20ceramic%20bowl%2C%20fine%20green%20powder%20with%20wooden%20spoon%2C%20arranged%20with%20fresh%20brahmi%20leaves%20and%20white%20lotus%20petals%20on%20marble%20surface&width=200&height=200&seq=brahmi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Shankhpushpi%20Churna%20memory%20enhancer%20powder%20in%20brass%20container%2C%20light%20colored%20fine%20powder%20with%20silver%20spoon%2C%20arranged%20with%20shankhpushpi%20flowers%20on%20clean%20background&width=200&height=200&seq=shankhpushpi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Medhya%20Rasayan%20brain%20tonic%20tablets%20in%20wooden%20bowl%2C%20golden%20brown%20round%20tablets%20with%20herbs%2C%20traditional%20mental%20wellness%20medicine%20with%20meditation%20beads%20on%20silk%20cloth&width=200&height=200&seq=medhya1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Saraswatarishta%20intelligence%20tonic%20in%20elegant%20bottle%2C%20golden%20herbal%20liquid%20with%20cork%20stopper%2C%20arranged%20with%20sacred%20books%20and%20white%20flowers%20on%20wooden%20table&width=200&height=200&seq=saraswatarishta1&orientation=squarish"
+      ]
+    },
+    {
+      name: "Oral & Dental Care",
+      description: "Natural solutions for fresh breath and strong teeth",
+      images: [
+        "https://readdy.ai/api/search-image?query=Brahmi%20Churna%20brain%20tonic%20powder%20in%20ceramic%20bowl%2C%20fine%20green%20powder%20with%20wooden%20spoon%2C%20arranged%20with%20fresh%20brahmi%20leaves%20and%20white%20lotus%20petals%20on%20marble%20surface&width=200&height=200&seq=brahmi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Shankhpushpi%20Churna%20memory%20enhancer%20powder%20in%20brass%20container%2C%20light%20colored%20fine%20powder%20with%20silver%20spoon%2C%20arranged%20with%20shankhpushpi%20flowers%20on%20clean%20background&width=200&height=200&seq=shankhpushpi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Medhya%20Rasayan%20brain%20tonic%20tablets%20in%20wooden%20bowl%2C%20golden%20brown%20round%20tablets%20with%20herbs%2C%20traditional%20mental%20wellness%20medicine%20with%20meditation%20beads%20on%20silk%20cloth&width=200&height=200&seq=medhya1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Saraswatarishta%20intelligence%20tonic%20in%20elegant%20bottle%2C%20golden%20herbal%20liquid%20with%20cork%20stopper%2C%20arranged%20with%20sacred%20books%20and%20white%20flowers%20on%20wooden%20table&width=200&height=200&seq=saraswatarishta1&orientation=squarish"
+      ]
+    },
+    {
+      name: "Bone & Spine Health",
+      description: "Formulations to support bone density and spinal wellness",
+      images: [
+        "https://readdy.ai/api/search-image?query=Brahmi%20Churna%20brain%20tonic%20powder%20in%20ceramic%20bowl%2C%20fine%20green%20powder%20with%20wooden%20spoon%2C%20arranged%20with%20fresh%20brahmi%20leaves%20and%20white%20lotus%20petals%20on%20marble%20surface&width=200&height=200&seq=brahmi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Shankhpushpi%20Churna%20memory%20enhancer%20powder%20in%20brass%20container%2C%20light%20colored%20fine%20powder%20with%20silver%20spoon%2C%20arranged%20with%20shankhpushpi%20flowers%20on%20clean%20background&width=200&height=200&seq=shankhpushpi1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Medhya%20Rasayan%20brain%20tonic%20tablets%20in%20wooden%20bowl%2C%20golden%20brown%20round%20tablets%20with%20herbs%2C%20traditional%20mental%20wellness%20medicine%20with%20meditation%20beads%20on%20silk%20cloth&width=200&height=200&seq=medhya1&orientation=squarish",
+        "https://readdy.ai/api/search-image?query=Saraswatarishta%20intelligence%20tonic%20in%20elegant%20bottle%2C%20golden%20herbal%20liquid%20with%20cork%20stopper%2C%20arranged%20with%20sacred%20books%20and%20white%20flowers%20on%20wooden%20table&width=200&height=200&seq=saraswatarishta1&orientation=squarish"
+      ]
+    },
+    {
+      name: "Elderly Care",
+      description: "Ayurvedic support for graceful aging and vitality in later years",
       images: [
         "https://readdy.ai/api/search-image?query=Brahmi%20Churna%20brain%20tonic%20powder%20in%20ceramic%20bowl%2C%20fine%20green%20powder%20with%20wooden%20spoon%2C%20arranged%20with%20fresh%20brahmi%20leaves%20and%20white%20lotus%20petals%20on%20marble%20surface&width=200&height=200&seq=brahmi1&orientation=squarish",
         "https://readdy.ai/api/search-image?query=Shankhpushpi%20Churna%20memory%20enhancer%20powder%20in%20brass%20container%2C%20light%20colored%20fine%20powder%20with%20silver%20spoon%2C%20arranged%20with%20shankhpushpi%20flowers%20on%20clean%20background&width=200&height=200&seq=shankhpushpi1&orientation=squarish",
@@ -185,7 +245,7 @@ export default function Products() {
           <div className="grid lg:grid-cols-2 gap-8">
             {categories.map((category, index) => (
               <div key={index} className="bg-green-50 rounded-lg p-8 hover:shadow-lg transition-shadow">
-                <div className="flex items-start space-x-4 mb-6">
+                <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
                     <i className="ri-medicine-bottle-line text-green-600 w-6 h-6 flex items-center justify-center"></i>
                   </div>
@@ -196,7 +256,7 @@ export default function Products() {
                 </div>
 
                 {/* Product Images Grid */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
                   {category.images.map((image, imageIndex) => (
                     <div key={imageIndex} className="bg-white rounded-lg p-3 shadow-sm">
                       <img
@@ -206,7 +266,7 @@ export default function Products() {
                       />
                     </div>
                   ))}
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
