@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <img
-                src="https://static.readdy.ai/image/7287dcd8714649f87b3169e43a183267/9510dabe9b0c5502c6074eea8f45bd0b.png"
+                src="/images/logo.png"
                 alt="Ayurvedic Medicine Shop Logo"
                 className="h-12 w-12"
               />
