@@ -8,14 +8,14 @@ steps:
       [
         'build',
         '-t',
-        'gcr.io/chrome-mediator-459217-f3/nextjs-app',
+        'gcr.io/able-reef-459216-m2/nextjs-app',
         '.'
       ]
 
   # Step 2: Push Docker image to Container Registry
   - name: 'gcr.io/cloud-builders/docker'
     args:
-      ['push', 'gcr.io/chrome-mediator-459217-f3/nextjs-app']
+      ['push', 'gcr.io/able-reef-459216-m2/nextjs-app']
 
   # Step 3: Deploy to Cloud Run
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
@@ -26,7 +26,7 @@ steps:
         'deploy',
         'nextjs-app',
         '--image',
-        'gcr.io/chrome-mediator-459217-f3/nextjs-app',
+        'gcr.io/able-reef-459216-m2/nextjs-app',
         '--platform',
         'managed',
         '--region',
@@ -35,4 +35,4 @@ steps:
       ]
 
 images:
-  - 'gcr.io/chrome-mediator-459217-f3/nextjs-app'
+  - 'gcr.io/able-reef-459216-m2/nextjs-app'
